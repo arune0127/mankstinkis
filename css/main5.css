@@ -1,0 +1,798 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+h1,  {
+  font-family: '';
+}
+
+.baltas {
+  color:#ffffff;
+  position: absolute;
+  margin-top: 6px;
+  /*align-items: center;*/
+  top: 10%;
+  /*transform: translate(-50%, -50%);*/
+  left: 36%;
+}
+
+.baltas1{
+  color:#ffffff;
+  position: absolute;
+  margin-top: 6px;
+  /*align-items: center;*/
+  top: 10%;
+  /*transform: translate(-50%, -50%);*/
+  left: 31%;
+}
+
+
+
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand';
+}
+/*Dosis*/
+/*p, div {*/
+
+p, div {
+    font-family: 'Droid Sans';
+}
+
+p-mankstos {
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+}
+
+$(function () {
+	$('.tlt').textillate();
+})
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(link-to-proxima-nova-font.woff) format('woff');
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+   font-family: 'Open Sans',serif;
+}
+
+h1 {
+  color: #3c4266;
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Quicksand'
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.centruotaIkona {
+   margin-top: -30px;
+   margin-right: auto;
+   width: 80px;
+   display: block;
+}
+
+.h1-style{
+margin-top: 122px;
+}
+.div-text{
+ text-align: justify;
+ text-justify: inter-word;
+}
+
+.div-text2 {
+  text-align: center;
+}
+.text-margins {
+  margin-bottom: 80px;
+}
+
+.paveiksliukas
+
+h3 {
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  color: #e7775b;
+
+}
+
+
+h4 {
+  text-align: center;
+  position: relative;
+}
+.form-email {
+  max-width: 700px;
+}
+
+.fonas {
+  background-color: #ffffff;
+}
+
+h5 {
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 24px;
+  position: absolute;
+  align-items: center;
+  top: 50%;*/
+  /*transform: translate(-50%, -50%);*/*/
+  left: 50%;*/
+}
+
+.xop-section {
+ max-width:1024px;
+ margin:0 auto;
+ /*padding:6% 2%;*/
+}
+
+.ikonos {
+  display: inline-block;
+  background-color: #ffffff;
+  margin-left: 200px;
+}
+
+.xop-section2 {
+  max-width:1024px;
+  margin:0 auto;
+  /*margin-top: 120px;*/
+  /*padding:10% 2%;*/
+}
+
+.xop-top-margin {
+  margin:0 auto;
+  margin-top: 100px;
+  /*max-width:1024px;*/
+  /*margin-top: 120px;*/
+  /*padding:10% 2%;*/
+}
+
+.xop-grid {
+ margin: 20px 0 0 0;
+ padding: 0;
+ list-style: none;
+ display: block;
+ /*float: left;*/
+ text-align: center;
+ width: 100%;
+}
+
+.xop-grid:after {
+ clear: both;
+}
+
+.xop-grid:after,
+.xop-box:before {
+ content: '';
+ display: table;
+}
+
+
+.xop-grid li {
+ /*width: 360px;
+ height: 360px;*/
+ width: 328px;
+ height: 328px;
+
+ display:inline-block;
+ margin: 20px;
+}
+
+
+.xop-grid2 li {
+ max-width: 940px;
+ height: 400px;
+ display:inline-block;
+ margin: 20px;
+}
+
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out,
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box2 {
+  width: 100%;
+	/*height: 100%;*/
+	position: relative;
+  margin-top: 170px;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out,
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,
+    transform 0.3s ease-in-out, ;
+}
+.xop-box:hover {
+	transform: scale(1.05);
+}
+
+.xop-img-1{
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/akis2maza2.png");
+}
+
+.xop-img-2{
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/kaklas2maza2.png");
+}
+
+.xop-img-3{
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/ranka2maza2.png");
+}
+
+.xop-img-4{
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/nugaratest2.png");
+}
+
+.xop-img-5{
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/peciaitest.png");
+}
+
+.xop-img-6{
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/kojomstest.png");
+}
+
+.xop-img-1-akis{
+image-orientation: center;
+ background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.01)
+    ),
+  url("../manksta/akis2didele.png");
+}
+
+
+.icodydis {
+  width: 10%;
+  height: 10%;
+}
+.xop-11 {
+ background-color:#fff;
+}
+.xop-11-aukstis {
+  max-height: 400px;
+}
+
+.xop-12-aukstis {
+  max-height: 600px;
+}
+
+.ikonos-po-akim {
+  max-height: 300px;
+}
+.xop-box11 {
+  width: 100%;
+	height: 100%;
+	position: relative;
+  margin-top: 20px;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out,
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,
+    transform 0.3s ease-in-out, ;
+}
+
+.xop-box-poakim {
+  width: 100%;
+	height: 200px;
+	position: relative;
+  margin-top: 10px;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out,
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,
+    transform 0.3s ease-in-out, ;
+}
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.xop-info h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height:1.5;
+}
+
+.xop-info p {
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height:2;
+}
+
+.border-radius {
+ border-radius: 6px;
+}
+  .topnav {
+    /*overflow: hidden;*/
+    background-color: #fff;
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 999;
+    border: 1px, solid #9c9c9c;
+    height: 120px;
+
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #F5F5F5;
+    text-align: right;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+.virsutinis-meniu{
+background-color: #ffffff;
+position: fixed;
+margin-top: 0;
+
+}
+
+   .section1 {
+     margin-top: 170px;
+     min-height: 600px;
+     background-color: #ffffff;
+     border-radius: 6px;
+
+}
+
+.rodykle {
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  /*background-color: #c0e3af;*/
+}
+
+  .topnav .icon {
+    display: none;
+  }
+
+.myTopnav {
+  background-color: #ffffff;
+}
+
+.btn a {
+  color: #F5F5F5;
+}
+
+.btn:background-hover {
+  color: #ffa53b;
+}
+
+
+.navigacija {
+  background-color: #ffffff;
+  height: 140px;
+  border-radius: 6px;
+}
+
+.navigacija1 {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.navigacijos-meniu {
+  position:relative;
+  margin-top: 10px;
+}
+
+.akis-fasadas-img {
+  /*position: relative;*/
+  /*align-items: center;*/
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.nav-trys{
+
+    padding-left: 197px;
+    margin-bottom: 0;
+    list-style: none;
+    padding-top: 100
+px;
+
+}
+
+
+.navigacija-zalia {
+  background-color: #96d1a7;
+  border-radius: 6px;
+  height: 400px;
+  margin-top: 160px;
+  position: relative;
+}
+
+
+.mankstos-info{
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+#logo {
+  position: initial;
+  position: relative;
+  float: left;
+}
+
+.img-responsive2 {
+width: 40%;
+float: left;
+margin-left: 20px;
+padding-bottom: -20px;
+
+}
+
+#myCarousel {
+  margin-top: 40px;
+  position: relative;
+  max-width: 100%;
+
+}
+
+.meniu-aukstis {
+  min-height: 140px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99999;
+}
+
+
+
+.meniu-brand {
+    float: left;
+    /*height: 50px;*/
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.btn-1 {
+ background-color: #97d5e0;
+ margin: 0 0px 10px 10px;
+
+}
+
+.btn:hover {
+ background-color: #56828a;
+ margin: 0 0px 10px 10px;
+
+}
+
+.btn-2 {
+ background-color: #ff9b6d;
+ margin: 0 0px 10px 10px;
+}
+
+
+/*div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}*/
+
+
+
+.p-tekstui {
+  text-align: justify;
+}
+
+.btn-3 {
+ background-color: #d13076;
+ margin: 0 0px 10px 10px;
+}
+
+.btn-4 {
+  background-color: #1fa69f;
+  margin: 0 0px 10px 10px;
+  }
+
+.border-bottom {
+  border-width: thin;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  }
+
+.flaticon-medical-1{
+  font-size: 80px;
+  color: #96d1a7;
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  /*margin-left: 100px;*/
+}
+
+
+
+.flaticon-vision{
+  font-size: 80px;
+  color: #96d1a7;
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  /*margin-left: 100px;*/
+}
+
+.flaticon-fruit-1{
+  font-size: 80px;
+  color: #96d1a7;
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  /*margin-left: 100px;*/
+}
+.po-iconom {
+  background-color: #fff;
+}
+
+.iconos{
+  display: inline;
+}
+.container-fluid {
+  background-color: #ffffff;
+}
+
+.mankstos {
+  margin-top: 100px;
+
+}
+
+
+body {
+    background-image: url("../manksta/pattern.jpg");
+    background-repeat: repeat-n;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+
+#ads {
+  margin-top: 15px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.red {
+    background-color: #ffb;
+}
+.orange {
+    background-color: #ffd;
+}
+.green {
+  background-color: #00ff30;
+}
+
+.akis-containeris {
+ padding: 0 0 0 0;
+ }
+
+.white {
+  background-color: #fff;
+}
+.border {
+   border: 1px solid #a8a8a8;
+}
+.aukstis {
+  min-height: 400px ;
+}
+
+.akis-fasadas{
+  height: 500px;
+  border-radius: 6px;a
+  background-color: #ebc2bd;
+  url("../manksta/akis2didele.png");
+}
+
+}
+
+.trysmeniu{
+  background-color: #fff;
+  height: 150px;
+  border-radius: 6px;
+}
+.paveiksliukas {
+float: left;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.sucentruoti {
+  object-position: center;
+}
+
+.paveiksliukas2 {
+  float: left;
+  position: absolute;
+  /*top: 50%;*/
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.aukstis-300 {
+    min-height: 300px;
+
+}
+
+.aukstis-200 {
+    min-height: 200px;
+    margin-top: 60px;
+    background-color: #ffffff;
+}
+
+.aukstis-150 {
+    min-height: 120px;
+    background-color: #ffffff;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+
+    /*border-radius: 6px;*/
+}
+
+.flaticon-medical-1:hover {
+    color: #d13076;
+}
+
+.flaticon-vision:hover {
+    color: #d13076;
+}
+
+.flaticon-fruit-1:hover {
+    color: #d13076;
+}
+
+
+.akis {
+  margin right: 100px;
+  float: left;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+
+.sirdis {
+  background-color: #fff;
+  border-radius: 6px;
+  float: right;
+  width: 49%;
+  margin left: 1%;
+}
+
+body, html {
+    height: 100%;
+}
+
+.meniu {
+  margin-top: 38px;
+  float: right;
+}
+
+.nugara {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.pirmyn {
+  margin-top: 20px;
+}
+.carousel .img-responsive {
+  width:100%;
+}
+
+.backgroudn-img {
+  height: 100%;
+  width: 100%;
+
+  background: url("../img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
